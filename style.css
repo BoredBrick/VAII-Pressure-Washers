@@ -228,17 +228,17 @@ textarea {
 }
 
 .slide-1 {
-  background-image: url(/img/deck.jpg);
+  background-image: url(img/deck.jpg);
   background-position: right bottom;
 }
 
 .slide-2 {
-  background-image: url(/img/walkway.jpg);
+  background-image: url(img/walkway.jpg);
   background-position: bottom center;
 }
 
 .slide-3 {
-  background-image: url(/img/wall.jpg);
+  background-image: url(img/wall.jpg);
   background-position: center;
 }
 

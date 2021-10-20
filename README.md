@@ -1,2 +1,2 @@
-# vajko
+# Webpage project for school
  

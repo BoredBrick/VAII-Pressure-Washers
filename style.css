@@ -42,6 +42,7 @@
 
 .card:hover {
   transform: scale(1.1);
+  border: none;
 }
 
 .card-img-top {
@@ -73,16 +74,14 @@
 }
 
 .our-services > img {
-  max-width: 4000px;
-  max-height: 4000px;
-}
-
-.thumb {
-  padding-bottom: 5rem;
+  max-width: 100%;
+  max-height: 600px;
 }
 
 .our-services {
   padding-bottom: 0;
+  width: 50rem;
+  height: 30rem;
 }
 
 @media only screen and (min-width: 992px) {
@@ -211,4 +210,77 @@ footer a:active {
 
 textarea {
   resize: none;
+}
+
+.carousel-item {
+  height: 32rem;
+  width: 100%;
+  background-color: #777;
+  color: wheat;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+.carousel-container {
+  position: absolute;
+  bottom: 0px;
+  padding-bottom: 3rem;
+}
+
+.slide-1 {
+  background-image: url(/img/deck.jpg);
+  background-position: right bottom;
+}
+
+.slide-2 {
+  background-image: url(/img/walkway.jpg);
+  background-position: bottom center;
+}
+
+.slide-3 {
+  background-image: url(/img/wall.jpg);
+  background-position: center;
+}
+
+@media only screen and (min-width: 992px) {
+  .slide-3 {
+    background-position: left top;
+  }
+}
+
+.carousel-container {
+  background: rgba(0, 0, 0, 0.35);
+  margin: 0;
+  z-index: 0;
+}
+
+.why-us h2 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.why-us h3 {
+  color: orange;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.why-us p {
+  margin-bottom: 5rem;
+  font-size: 1.3em;
+}
+
+hr {
+  border-top: 8px solid orange;
+  opacity: 1;
+  margin: auto;
+  margin-bottom: 100px;
+  width: 25%;
+}
+
+#services {
+  font-weight: bold;
+  margin-bottom: 2rem;
 }
